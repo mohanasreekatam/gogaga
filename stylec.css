@@ -1,0 +1,156 @@
+.navbar-image {
+    width: 80px;
+    height: 90px;
+    
+  }
+  .navbar {
+    height: 100px;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  }
+.para{
+   color: white;
+   background-color:#0A9DA2;
+   border: 1px solid #0A9DA2;
+   border-radius: 20px;
+   text-align: center;
+   display: inline-block;
+   flex-wrap: wrap;
+   height: 30px;
+   width: 200px;
+   margin: 10px;
+}
+.style{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    height: 500px;
+    width: 200px;
+}
+.head{
+    font-family: Comic Sans MS;
+    text-align: center;
+    color: green;
+
+}
+.he{
+    color: yellowgreen;
+    font-family: English 111 Vivace BJ;
+}
+.list-group{
+    display: inline-block;
+}
+
+.dis {
+    max-width: 1200px;
+    margin: 50px auto 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .text{
+    font-weight: bold;
+    color: blueviolet;
+  }
+  .ad{
+    color: purple;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 50px auto 10 auto;
+    padding: 0 20px;
+    justify-content: center;
+  }
+  
+  .search-form, .booking-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-form h2, .booking-info h2 {
+    margin-top: 0;
+  }
+  
+  .search-form form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .search-form input[type="text"], .search-form input[type="date"], .search-form button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .search-form input[type="text"], .search-form input[type="date"], .search-form button {
+      flex: 1 1 100%;
+      justify-content: center;
+    }
+  }
+  .heading{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .type{
+    justify-content: center;
+  }
+  .card-text1{
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    text-align: center;
+  }
+  .dis1 {
+    max-width: 1000px;
+    margin: 50px auto 0 auto;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .header{
+    margin: 20px;
+    font-size: 25px;
+  }
+  .rating{
+    color: white;
+    background-color: #0A9DA2;
+    width: 50px;
+    text-align: center;
+    
+  }
+  footer {
+    background-color:#baf6f7;
+    color:black;
+    padding: 20px;
+    text-align: center;
+    
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.bg{
+    background-color:#7cebf5;
+}
